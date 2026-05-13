@@ -1,0 +1,36 @@
+img{
+    width: 500px;
+}
+li{
+    font-size: 45px;
+
+}
+
+header{
+        display: flex;
+        justify-content: flex-end;  /* всё содержимое body переносится вправо */
+    }
+    /* Убираем flex из кнопок, оставляем только inline-block */
+     .b {
+        width: 200px;
+        font-size: 20px;
+        color: white;
+        border: none;
+        background-color: dodgerblue;
+        border-radius: 20px;
+        margin: 10px;
+        cursor: pointer;
+        padding: 10px 0;
+    }
+    
+    .a {
+        width: 200px;
+        font-size: 20px;
+        color: dodgerblue;
+        border: 2px solid dodgerblue;
+        background-color: white;
+        border-radius: 20px;
+        margin: 10px;
+        cursor: pointer;
+        padding: 10px 0;
+    }
